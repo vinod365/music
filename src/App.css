@@ -1,0 +1,10 @@
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  /* background-color: #2b2d2e; */
+
+  background-color: #e1c8c1;
+  gap: 20px;
+}

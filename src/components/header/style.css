@@ -1,0 +1,12 @@
+.header {
+    background-color: #f1f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px ;
+
+}

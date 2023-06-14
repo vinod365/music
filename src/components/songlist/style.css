@@ -1,0 +1,18 @@
+.songList {
+    background-color: aliceblue;
+
+}
+
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 20px ;
+   margin-bottom: 20px;
+}
+
+.songList .lists {
+    padding: 7px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:10px;
+}

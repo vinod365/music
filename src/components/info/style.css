@@ -1,0 +1,20 @@
+.info {
+    background-color: #f1f8ff;
+    padding-left: 10px;
+}
+
+p{
+    padding-left: 10px;
+    margin:0px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.song__name {
+    color: #3c1716;
+    font-weight: bold;
+    font-size: 20px;
+}
+.singer__name {
+    color: #5C514F;
+    font-size: 12px;
+}
