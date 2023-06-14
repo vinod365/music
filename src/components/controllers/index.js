@@ -43,7 +43,12 @@ const Controllers = ({
     audioObject.pause();
   }
   function handleOnPrevClick() {
-    setCurrentIndex((current) => current - 1);
+    setCurrentIndex((current) => {
+      if (current == 0) return current;
+      else {
+        return current - 1;
+      }
+    });
     audioObject.pause();
   }
 
@@ -59,7 +64,7 @@ const Controllers = ({
     <div className="controllers">
       <VolumeDownRoundedIcon
         onClick={() => handleOnVolumeClick("down")}
-        className="icon"
+        className="hidden icon"
       />
 
       <div>
@@ -79,7 +84,7 @@ const Controllers = ({
       </div>
       <VolumeUpRoundedIcon
         onClick={() => handleOnVolumeClick("up")}
-        className="icon"
+        className="hidden icon"
       />
     </div>
   );
